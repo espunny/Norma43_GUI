@@ -25,8 +25,4 @@ HOW INSTALLS:
 
 2.Download the repository and run the install.bat file
 
-<<<<<<< HEAD
 3.Run norma43.bat
-=======
-3.Run norma43.bat
->>>>>>> 25204a64ca4165e0cbf6f65ad699d9dd2642725b
