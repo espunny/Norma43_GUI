@@ -12,11 +12,17 @@ Utiliza la librería csb43 (LGPLv3)(LGPL) Author
 https://pypi.org/project/csb43/
 
 INSTALACIÓN:
+
 1.Instalar Python desde la tienda de aplicaciones de Windows.
+
 2.descargar el repositorio y ejecutar el fichero instalar.bat
+
 3.Para abrir la aplicación, ejecutar norma43.bat
 
-HOW INSTALLS
+HOW INSTALLS:
+
 1.Install Python from the Windows App Store.
+
 2.Download the repository and run the install.bat file
+
 3.Run norma43.bat
