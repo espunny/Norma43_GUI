@@ -1,0 +1,43 @@
+Proyecto basado en:
+https://bitbucket.org/wmj/csb43/src/master/
+Aquí está la documentación para descargar las dependencias. No es necesario si se van a seguir los pasos que hay a continuación, Ya que está en el fichero requirements.txt
+
+
+
+# Instalación de Python desde la tienda de aplicaciones de Windows
+Es necesario crear un entorno de programación para que las librerías y módulos descargados puedan ser independientes.
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+Instalación del entorno virtual de trabajo
+python -m pip install --user virtualenv
+
+To install :
+
+pip install --user virtualenv
+To create a virtual environment (venv):
+
+python -m virtualenv venv
+To activate:
+
+-cd venv
+-cd Scripts
+-activate.bat
+to deactivate:
+
+-deactivate.bat
+
+Para confirmar que está corriendo en el entorno
+where python
+
+Para abandonar el entorno virtual
+deactivate
+
+## Para instalar esta aplicacion en otros ordenadores, no me ha servido ni pipinstall ni python to exe.
+https://medium.com/@gokulyc/how-to-export-virtualenv-33d6977c6b1f
+Generamos el fichero de requerimientos
+
+pip freeze > requirements.txt
+# Ahora para instalar estas dependencias y garantizar que funcionará bien la aplicacion
+pip install -r path/to/requirements.txt
+
+Para hacerlo bien, habría que crear un entorno virtual en el destino, pero no hará falta, porque es la única aplicación de Python que estarán corriendo.
